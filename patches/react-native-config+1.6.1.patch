@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-config/package.json b/node_modules/react-native-config/package.json
+index aa67735..f7bfc3b 100644
+--- a/node_modules/react-native-config/package.json
++++ b/node_modules/react-native-config/package.json
+@@ -62,7 +62,7 @@
+     },
+     "ios": {
+       "modules": {
+-        "RNCConfig": {
++        "RNCConfigModule": {
+           "className": "RNCConfigModule",
+           "unstableRequiresMainQueueSetup": true
+         }
