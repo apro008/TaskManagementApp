@@ -4,6 +4,13 @@ Cross-platform task manager built with React Native. Tasks are written to a loca
 SQLite database first and pushed to Firestore whenever the device is online, so
 the app stays fully usable with no connection.
 
+## Walkthrough video
+
+A short screen recording covering the features, the offline sync flow and the
+project structure:
+
+[Watch the walkthrough](https://drive.google.com/file/d/1WBo0j990tQiOk-nkH-EyqwP0vbzY2uCd/view?usp=sharing)
+
 ## Requirements checklist
 
 | Requirement | Status | Where |

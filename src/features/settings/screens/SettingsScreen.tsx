@@ -107,7 +107,7 @@ export default function SettingsScreen() {
             {modes.map(mode => (
               <Chip
                 key={mode}
-                label={mode}
+                label={mode.toString().toUpperCase()}
                 active={themeMode === mode}
                 onPress={() => dispatch(setTheme(mode))}
               />
